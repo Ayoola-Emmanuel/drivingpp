@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgba(40, 94, 220, 0.233);
+}
+
+.head {
+  margin: 20px;
+  text-align: center;
+}
+
+.form {
+  margin: 10px auto 10px auto;
+  border-radius: px;
+  border: 0px;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  background-color: #eceff1;
+}
+
+#info {
+  text-align: left;
+  font-size: 27px;
+  font-weight: lighter;
+  margin-left: 50px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  color: blue;
+}
+
+#firstname {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 15px 10px 10px;
+  background-color: #2050ff2e;
+}
+
+#lastname {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 15px 10px 10px;
+  margin-left: 60px;
+  background-color: #2050ff2e;
+}
+
+#birth-year {
+  border: 0px;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 120px;
+  background-color: #6e7ec851;
+}
+
+#email {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 15px 10px 10px;
+  margin-top: 10px;
+  background-color: #6e7ec86e;
+  width: 230px;
+  margin-right: -20px;
+}
+
+#phone {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 15px 10px 10px;
+  margin-left: 30px;
+  background-color: #6e7ec86e;
+}
+
+#address {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 20px 10px 10px;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 425px;
+  background-color: #6e7ec8aa;
+}
+
+#gender {
+  margin-top: 10px;
+}
+#male {
+  margin-left: 7px;
+}
+
+#female {
+  margin-left: 10px;
+}
+
+#dummy-text {
+  visibility: hidden;
+}
+
+#license {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 20px 10px 10px;
+  margin-left: -50px;
+  margin-top: 10px;
+  width: 150px;
+  background-color: #a1acdbdb;
+}
+
+#sight {
+  border: 0px;
+  border-radius: 7px;
+  padding: 10px 20px 10px 10px;
+  margin-left: 90px;
+  margin-right: -40px;
+  margin-top: 10px;
+  width: 150px;
+  background-color: #a1acdbdb;
+}
+
+#submit {
+  margin-top: 30px;
+  border: 0px;
+  border-radius: 20px;
+  color: whitesmoke;
+  background-color: #434eeb;
+  padding: 8px 25px;
+}

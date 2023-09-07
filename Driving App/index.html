@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Driving App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body>
+    <header><h1 class="head">Car Rental Form</h1></header>
+    <form name="driving-form" action="#" class="form">
+      <h3 id="info">User Details</h3>
+      <input type="text" id="firstname" placeholder="First Name" required />
+
+      <input type="text" id="lastname" placeholder="Last Name" required />
+      <br />
+      <input type="text" id="birth-year" placeholder="Birth Year" required />
+      <span id="gender">
+        Gender
+        <input type="radio" id="male" value="male" />Male
+        <input type="radio" id="female" value="female" />Female
+      </span>
+      <br />
+      <input type="email" id="email" placeholder="Email" required />
+
+      <input type="tel" id="phone" placeholder="Phone" required />
+      <br />
+
+      <input type="text" id="address" placeholder="Address" required />
+
+      <br />
+      <span>
+        Do have a drivers' license?<span id="dummy-text"> gggg</span>Do you see
+        well when driving?
+        <br />
+        <input type="text" id="license" placeholder="true/false" required />
+
+        <input type="text" id="sight" placeholder="true/false" required
+      /></span>
+      <br />
+      <button type="submit" id="submit" onclick="checkEligibility()">
+        Submit
+      </button>
+    </form>
+
+    <script src="index.js" async defer></script>
+  </body>
+</html>
